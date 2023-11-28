@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Tshirts() {
- 
   return (
     <div>
       <section className="text-gray-600 body-font">
@@ -10,7 +9,7 @@ export default function Tshirts() {
           <div className="flex flex-wrap -m-4 ">
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -23,7 +22,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -34,7 +33,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/2"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -47,7 +46,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -58,7 +57,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -71,7 +70,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -82,7 +81,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -95,7 +94,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -106,7 +105,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -119,7 +118,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -130,7 +129,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -143,7 +142,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -154,7 +153,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -167,7 +166,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -178,7 +177,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -191,7 +190,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -202,7 +201,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -215,7 +214,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -226,7 +225,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -239,7 +238,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -250,7 +249,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -263,7 +262,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -274,7 +273,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -287,7 +286,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -298,7 +297,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -311,7 +310,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -322,7 +321,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -335,7 +334,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -346,7 +345,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -359,7 +358,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -370,7 +369,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -383,7 +382,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -394,7 +393,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -407,7 +406,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -418,7 +417,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -431,7 +430,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -442,7 +441,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -455,7 +454,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -466,7 +465,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -479,7 +478,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -490,7 +489,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -503,7 +502,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -514,7 +513,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -527,7 +526,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -538,7 +537,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -551,7 +550,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -562,7 +561,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -575,7 +574,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
@@ -586,7 +585,7 @@ export default function Tshirts() {
             </div>
             <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
               <NavLink
-                to={"/product/wear-the-code"}
+                to={"/ProductPage/1"}
                 className="block relative rounded overflow-hidden"
               >
                 <img
@@ -599,7 +598,7 @@ export default function Tshirts() {
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Tshirts
                 </h3>
-                <NavLink to={"/product/wear-the-code"}>
+                <NavLink to={"/ProductPage/1"}>
                   <span className="text-gray-900 title-font text-lg font-medium">
                     Wear The Code
                   </span>
