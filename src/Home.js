@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import Collections from "./components/Collections";
+import cartContext from "./context_useContext/cartContext/cartContext";
+
 export default function Home() {
+
   return (
     <div className="main__content flex flex-col">
       <div className="Hero__image">
