@@ -16,7 +16,7 @@ export default function Collections() {
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
+            <div className="flex relative cursor-pointer">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
@@ -37,7 +37,7 @@ export default function Collections() {
             </div>
           </div>
           <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
+            <div className="flex relative cursor-pointer">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
@@ -58,7 +58,7 @@ export default function Collections() {
             </div>
           </div>
           <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
+            <div className="flex relative cursor-pointer">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
@@ -79,7 +79,7 @@ export default function Collections() {
             </div>
           </div>
           <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
+            <div className="flex relative cursor-pointer">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
@@ -100,7 +100,7 @@ export default function Collections() {
             </div>
           </div>
           <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
+            <div className="flex relative cursor-pointer">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
@@ -121,7 +121,7 @@ export default function Collections() {
             </div>
           </div>
           <div className="lg:w-1/3 sm:w-1/2 p-4">
-            <div className="flex relative">
+            <div className="flex relative cursor-pointer">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"

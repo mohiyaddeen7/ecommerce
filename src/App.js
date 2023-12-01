@@ -10,6 +10,7 @@ import Mugs from "./Mugs";
 import Stickers from "./Stickers";
 import CartState from "./context_useContext/cartContext/CartState";
 import ProductPage from "./Products/ProductPage";
+import Checkout from "./Checkout";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path={"/Hoodies"} element={<Hoodies />}></Route>
           <Route exact path={"/Mugs"} element={<Mugs />}></Route>
           <Route exact path={"/Stickers"} element={<Stickers />}></Route>
+          <Route exact path={"/Checkout"} element={<Checkout />}></Route>
           <Route
             path={"/ProductPage/:itemCode"}
             element={<ProductPage />}

@@ -9,7 +9,6 @@ export default function ProductPage() {
 
   const handlerAddToCart = () => {
     addToCart(itemCode, 1, 300, "mug", "s", "red");
-    console.log(itemCode);
   };
 
   const checkServiciblity = () => {

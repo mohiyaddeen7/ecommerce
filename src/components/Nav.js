@@ -7,8 +7,8 @@ export default function Nav() {
     useContext(cartContext);
 
   return (
-    <div>
-      <header className="text-gray-600 body-font bg-amber-100 shadow-md">
+    <div className="sticky z-20 top-0">
+      <header className="text-gray-600 body-font bg-amber-200 shadow-md ">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <i className="fa-solid fa-shop"></i>
@@ -44,7 +44,7 @@ export default function Nav() {
         className="cartSideBar top-0 translate-x-full  right-0 bg-gray-100 py-10 px-8 transform transition-transform fixed z-20 w-96 h-full"
         id="cartSideBar"
       >
-        <h2 className="font-bold text-xl text-center"> Shoping Cart</h2>
+        <h2 className="font-bold text-xl text-center underline"> Shoping Cart</h2>
         <span
           className="material-symbols-outlined absolute top-4 right-4 cursor-pointer text-2xl"
           onClick={toggleCart}
@@ -63,16 +63,18 @@ export default function Nav() {
                     <div className="font-semibold">{cart[k].name}</div>
                     <div className="flex items-center justify-center">
                       <span
-                        className="material-symbols-outlined cursor-pointer hover:text-green-500"
+                        className="material-symbols-outlined cursor-pointer hover:text-green-500 select-none transition-all"
                         onClick={() => {
                           addToCart(k, 1);
                         }}
                       >
                         add_circle
                       </span>
-                      <span className="text-xl mx-2">{cart[k].qty}</span>
+                      <span className="text-xl mx-2 select-none w-8 text-center">
+                        {cart[k].qty}
+                      </span>
                       <span
-                        className="material-symbols-outlined cursor-pointer hover:text-red-500"
+                        className="material-symbols-outlined cursor-pointer hover:text-red-500 select-none transition-all"
                         onClick={() => {
                           removeFromCart(k, 1);
                         }}
@@ -85,9 +87,17 @@ export default function Nav() {
               );
             })}
         </ul>
-        <button className="p-2 border-2 border-solid border-black mr-2 hover:bg-amber-200 transition-all hover:shadow-lg hover:border-white rounded">
-          Checkout
-        </button>
+        <div className="totalContainer self-start mb-4 font-semibold">
+          Total : {subTotal} ₹
+        </div>
+        <NavLink to={"checkout"}>
+          <button
+            className="p-2 border-2 border-solid border-black mr-2 hover:bg-amber-200 transition-all hover:shadow-lg hover:border-white rounded"
+            onClick={toggleCart}
+          >
+            Checkout
+          </button>
+        </NavLink>
         <button
           className="p-2 border-2 border-solid border-black mr-2 hover:bg-amber-200 transition-all hover:shadow-lg hover:border-white rounded"
           onClick={clearCart}

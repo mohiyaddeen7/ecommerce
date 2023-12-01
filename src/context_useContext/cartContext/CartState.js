@@ -9,6 +9,7 @@ const CartState = ({ children }) => {
     try {
       if (localStorage.getItem("cart")) {
         setCart(JSON.parse(localStorage.getItem("cart")));
+        saveCart(JSON.parse(localStorage.getItem("cart")))
       }
     } catch (error) {
       console.error(error);
@@ -21,7 +22,7 @@ const CartState = ({ children }) => {
     let subt = 0;
     let keys = Object.keys(cart);
     for (let i = 0; i < keys.length; i++) {
-      subt += cart[keys[i]].price + cart[keys[i]].qty;
+      subt += cart[keys[i]].price * cart[keys[i]].qty;
     }
     setSubTotal(subt);
   };
@@ -34,7 +35,7 @@ const CartState = ({ children }) => {
       newCart[itemCode] = { qty: 1, price, name, size, variant };
     }
     setCart(newCart);
-    saveCart(cart);
+    saveCart(newCart);
   };
 
   const removeFromCart = (itemCode, qty, price, name, size, variant) => {
@@ -46,7 +47,7 @@ const CartState = ({ children }) => {
       delete newCart[itemCode];
     }
     setCart(newCart);
-    saveCart(cart);
+    saveCart(newCart);
   };
 
   const clearCart = () => {

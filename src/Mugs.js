@@ -5,7 +5,7 @@ export default function Mugs() {
     <div>
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -m-4 ">
+        <div className="flex flex-wrap justify-center items-center">
           <div className="p-4 lg:w-1/5 md:w-1/2 w-full shadow-lg m-5">
             <NavLink
               to={"/product/wear-the-code"}
