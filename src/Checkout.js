@@ -22,7 +22,7 @@ export default function Checkout() {
                 type="text"
                 name="buyerName"
                 id="buyerName"
-                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50"
+                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50  transition-all"
                 placeholder="Enter your name"
               />
             </div>
@@ -34,7 +34,7 @@ export default function Checkout() {
                 type="email"
                 name="buyerEmail"
                 id="buyerEmail"
-                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50"
+                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50 transition-all"
                 placeholder="Enter your email id"
               />
             </div>
@@ -46,7 +46,7 @@ export default function Checkout() {
                 name="buyerAddress"
                 id="buyerAddress"
                 rows="5"
-                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50"
+                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50 transition-all"
                 placeholder="Enter your current address"
               ></textarea>
             </div>
@@ -58,7 +58,7 @@ export default function Checkout() {
                 type="email"
                 name="buyerEmail"
                 id="buyerEmail"
-                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50"
+                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50 transition-all"
                 placeholder="Enter your phone number"
               />
             </div>
@@ -70,7 +70,7 @@ export default function Checkout() {
                 type="text"
                 name="buyerName"
                 id="buyerName"
-                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50"
+                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50 transition-all"
                 placeholder="Enter your delivery pincode"
               />
             </div>
@@ -82,7 +82,7 @@ export default function Checkout() {
                 type="email"
                 name="buyerEmail"
                 id="buyerEmail"
-                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50"
+                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50 transition-all"
               />
             </div>
             <div className="buyerAddressContainer flex flex-col items-center w-1/2 p-2">
@@ -93,7 +93,7 @@ export default function Checkout() {
                 type="text"
                 name="buyerName"
                 id="buyerName"
-                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50"
+                className="w-full rounded  p-2 border border-solid border-black shadow-sm hover:shadow-lg focus:border-amber-500  focus:ring-amber-500 appearance-none focus:outline-none focus:ring-2 focus:bg-blue-50 transition-all"
               />
             </div>
           </form>
@@ -136,7 +136,7 @@ export default function Checkout() {
                 <div className="totalContainer self-start mb-4">
                   Total : {subTotal} ₹
                 </div>
-                <button className="py-2 px-4 border-2 border-solid border-black hover:bg-green-300 transition-all hover:shadow-2xl hover:border-white rounded-lg self-start flex items-center justify-center shadow-lg backdrop-blur-xl bg-white/60">
+                <button className="py-2 px-4 border-2 border-solid border-black hover:bg-green-300 transition-all hover:shadow-2xl hover:border-white rounded-lg self-start flex items-center justify-center shadow-lg backdrop-blur-xl bg-white/60 ">
                   <span class="material-symbols-outlined mr-2">payments</span>
                   <div className="payTextContainer ">Pay</div>
                 </button>
@@ -144,7 +144,7 @@ export default function Checkout() {
             </ul>
           </div>
         </li>
-      </ol>{" "}
+      </ol>
     </div>
   );
 }

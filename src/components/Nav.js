@@ -31,8 +31,13 @@ export default function Nav() {
               Stickers
             </NavLink>
           </nav>
+          <NavLink to="/Login">
+            <button className="text-center mr-2 items-center bg-gray-100 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base font-semibold mt-4 md:mt-0 ">
+              Login
+            </button>
+          </NavLink>
           <button
-            className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+            className="inline-flex items-center bg-gray-100 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 font-semibold"
             onClick={toggleCart}
           >
             <span className="material-symbols-outlined">shopping_cart</span>
@@ -44,7 +49,10 @@ export default function Nav() {
         className="cartSideBar top-0 translate-x-full  right-0 bg-gray-100 py-10 px-8 transform transition-transform fixed z-20 w-96 h-full"
         id="cartSideBar"
       >
-        <h2 className="font-bold text-xl text-center underline"> Shoping Cart</h2>
+        <h2 className="font-bold text-xl text-center underline">
+          {" "}
+          Shoping Cart
+        </h2>
         <span
           className="material-symbols-outlined absolute top-4 right-4 cursor-pointer text-2xl"
           onClick={toggleCart}

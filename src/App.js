@@ -11,6 +11,11 @@ import Stickers from "./Stickers";
 import CartState from "./context_useContext/cartContext/CartState";
 import ProductPage from "./Products/ProductPage";
 import Checkout from "./Checkout";
+import Order from "./Order";
+import Login from "./Login";
+import PhoneVerification from "./PhoneVerification";
+import Signup from "./Signup";
+import Otp_page from "./Otp_page";
 
 function App() {
   return (
@@ -24,6 +29,15 @@ function App() {
           <Route exact path={"/Mugs"} element={<Mugs />}></Route>
           <Route exact path={"/Stickers"} element={<Stickers />}></Route>
           <Route exact path={"/Checkout"} element={<Checkout />}></Route>
+          <Route exact path={"/Order"} element={<Order />}></Route>
+          <Route exact path={"/Login"} element={<Login />}></Route>
+          <Route
+            exact
+            path={"/PhoneVerification"}
+            element={<PhoneVerification />}
+          ></Route>
+          <Route exact path={"/Signup"} element={<Signup />}></Route>
+          <Route exact path={"/Otp"} element={<Otp_page />}></Route>
           <Route
             path={"/ProductPage/:itemCode"}
             element={<ProductPage />}
